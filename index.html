@@ -1,0 +1,640 @@
+<!doctype html>
+<!--
+  DRAFTING SWITCH: while data-drafts="on", yellow dashed boxes and "rewrite" notes mark every passage
+  that still needs the team's own words. Change it to data-drafts="off" before you deploy.
+-->
+<html lang="en" data-drafts="off">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cười Vui no. 20 (2014): a digitised children's magazine</title>
+  <meta name="description" content="A Vietnamese children's humour magazine from 2014, scanned page by page, described in English, partly transcribed, and checked against an AI transcription. A VinUniversity CAS3020 project.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,600;0,700;1,400&family=Lora:wght@600;700&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="progress" aria-hidden="true"><span></span></div>
+<a class="skip" href="#main">Skip to main content</a>
+
+<header class="site-head">
+  <div class="wrap">
+    <div class="brand">Cười Vui no. 20 <small>· a digitisation project</small></div>
+    <nav aria-label="Sections">
+      <ul>
+        <li><a href="#about">The magazine</a></li>
+        <li><a href="#purpose">Purpose</a></li>
+        <li><a href="#collection">Collection &amp; privacy</a></li>
+        <li><a href="#pages">The pages</a></li>
+        <li><a href="#transcription">Transcription &amp; AI check</a></li>
+        <li><a href="#decisions">Key decisions</a></li>
+        <li><a href="#findings">Findings</a></li>
+        <li><a href="#limits">Limitations</a></li>
+        <li><a href="#process">How it was made</a></li>
+        <li><a href="#video">Video</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ================= HERO ================= -->
+<div class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="eyebrow">Digital Arts and Sciences · Mini Project 1 · Documentation</p>
+      <h1>Cười Vui no. 20 (2014), put online for people who have never heard of it</h1>
+      <p class="lede">A Vietnamese children's humour magazine, scanned page by page, described in English, partly transcribed, and used to test how far an AI can be trusted with its lettering.</p>
+      <ul class="stats" aria-label="Project facts">
+        <li><b>20</b><span>printed pages</span></li>
+        <li><b>11</b><span>scans</span></li>
+        <li><b>16</b><span>people's addresses covered</span></li>
+        <li><b>14</b><span>differences checked against the page</span></li>
+      </ul>
+      <p class="cta"><a class="btn primary" href="#pages">Flip through the issue</a> <a class="btn" href="#transcription">See the AI check</a></p>
+      <p class="hero-note">Published 16 May 2014 · Vietnamese text with an English guide</p>
+    </div>
+    <figure>
+      <a href="img/01-front-cover.jpg"><img src="img/01-front-cover.jpg" width="1400" height="1959" alt="Front cover of Cười Vui no. 20, 2014: a smiling cartoon teacher in a white áo dài beside three cartoon schoolboys at a desk, under the colourful magazine logo."></a>
+      <figcaption>The front cover. Select the image to open it full size.</figcaption>
+    </figure>
+  </div>
+</div>
+
+<!-- ================= 1. ABOUT ================= -->
+<section id="about" aria-labelledby="about-h">
+  <div class="wrap">
+    <h2 id="about-h"><span class="section-num">1</span>What is this magazine?</h2>
+    <div class="read">
+      <p><span lang="vi">Cười Vui</span> is Vietnamese for roughly “laugh and have fun”. According to the cover and the masthead printed inside, it was a weekly publication of the children's newspaper <span lang="vi">Nhi Đồng</span>, listed as coming out on Fridays. This copy is issue no. 20, dated 16 May 2014, with a printed price of 4,000 đồng and an editorial office listed in Hanoi.</p>
+      <p>It is made for school-age readers: jokes and rhymes sent in by readers, short comic stories, a four-page comic strip, entertainment news, quizzes and prize contests, with cartoon characters on almost every page.</p>
+    </div>
+    <h3>What is inside this issue</h3>
+    <ul class="plain read">
+      <li><strong><span lang="vi">Lớp tôi</span></strong> (“My class”): a humorous rhyme sent in by a reader, and <strong><span lang="vi">Văn phòng Bố Đa</span></strong>: readers' questions answered with jokes.</li>
+      <li><strong><span lang="vi">Gọi bằng… BỐN</span></strong> (“Call it… four”, the cover story) and <strong><span lang="vi">Cảnh sát và những tình huống khó xử</span></strong> (“Police and awkward situations”): short jokes.</li>
+      <li>Entertainment pages on TV comedy and comedians, a poem about fishing, and <strong><span lang="vi">Cười xả láng</span></strong> (“laugh out loud”): one-line dialogue jokes.</li>
+      <li><strong><span lang="vi">Sói Vin và Bíp Bíp</span></strong>: a four-page comic strip about a coyote and a fast-running bird.</li>
+      <li>Two pages of advertising for a milk brand's comic series, a reader contest with a prize-winners list, and a second contest.</li>
+      <li><strong><span lang="vi">Nhất quỷ nhì ma</span></strong> on the back cover: an eight-panel classroom comic.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ================= 2. PURPOSE ================= -->
+<section id="purpose" aria-labelledby="purpose-h">
+  <div class="wrap">
+    <h2 id="purpose-h"><span class="section-num">2</span>Purpose and audience</h2>
+    <div class="read todo">
+      <span class="todo-badge">✎ DRAFT: reworded from your own message; rewrite in your own voice</span>
+      <p>We chose the <strong>Documentation</strong> focus. Our purpose is to make one issue of this magazine <strong>accessible to many more people</strong>: first of all, people who have no information about the magazine at all, and beyond them a universal audience. That is why this site is in English, describes every page, and puts a Vietnamese transcription and an AI check next to a sample of the pages.</p>
+      <p>Our second priority is to <strong>archive the issue as faithfully as we can, without damaging the original</strong>. Where the two priorities pull against each other, access comes first, but never at the cost of harming the paper copy.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 3. COLLECTION ================= -->
+<section id="collection" aria-labelledby="collection-h">
+  <div class="wrap">
+    <h2 id="collection-h"><span class="section-num">3</span>The collection, permission and privacy</h2>
+    <dl class="facts">
+      <dt>What</dt><dd>One complete issue: <span lang="vi">Cười Vui</span> no. 20, 16 May 2014. Front cover, nine two-page spreads (pages 2–19) and back cover: 20 printed pages, 11 scans.</dd>
+      <dt>Where from</dt><dd>The owner's own copy. It belongs to Trần Khánh, whose name is written in ink on the cover.</dd>
+      <dt>Scanned</dt><dd>Everything.</dd>
+      <dt>Transcribed</dt><dd>A sample only: the <span lang="vi">Lớp tôi</span> spread (inside front cover and page 3) and the <span lang="vi">Thắc mắc</span> joke on page 14. See <a href="#transcription">section 5</a>.</dd>
+    </dl>
+
+    <h3>Permission</h3>
+    <div class="read todo">
+      <span class="todo-badge">✎ DRAFT: built from your message; add anything you did beyond this</span>
+      <p>Professor Daniel Ruelle approved the choice of this issue for the project. For the purposes of this assignment it is fine for the team to publish the pages on this website, and the issue is now 12 years old.</p>
+    </div>
+
+    <h3>Privacy: what we hid, and what we left visible</h3>
+    <div class="read">
+      <p>The magazine prints readers' <strong>addresses, villages, schools and districts</strong> beside their names, and the prize-winners' list on page 18 prints full home addresses. On this site every one of those lines is covered with a <strong>plain black box</strong>: the locations of 16 named contributors and prize-winners across six spreads. The boxes are drawn over the picture. Nothing was repainted or reconstructed, and no AI was used to edit the images. Names stay visible. The unredacted scans are kept offline and are not published.</p>
+      <p>We left the publisher's own office addresses and phone numbers visible, because they are the organisation's contact details, not a private person's. We also left the owner's inscription on the front cover, because it shows who kept this copy.</p>
+    </div>
+    <div class="pair">
+      <figure>
+        <img src="img/crop-prize-list-redacted.jpg" width="760" height="1110" loading="lazy" alt="Close-up of the prize-winners list on page 18. Five winners' names and prizes are readable, but every address line is covered by a black rectangle.">
+        <figcaption>Page 18, prize-winners list, as published here: names and prizes visible, addresses covered.</figcaption>
+      </figure>
+      <div class="callout" role="note">
+        <p><strong>Rights note.</strong> The pages contain work by other people: illustrators, photographers, advertisers and licensed cartoon characters. They are shown here at reduced size only as part of a university class project that documents this issue, and are not offered for reuse. If you hold rights to something shown here and want it taken down, please contact the team: <a href="mailto:24khanh.t@vinuni.edu.vn">24khanh.t@vinuni.edu.vn</a>.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 4. THE PAGES ================= -->
+<section id="pages" aria-labelledby="pages-h">
+  <div class="wrap">
+    <h2 id="pages-h"><span class="section-num">4</span>The pages</h2>
+    <div class="read">
+      <p>All 11 scans, in order. Each has a plain-English description for screen-reader users and anyone who cannot read Vietnamese. Select a page to open it at full web size.</p>
+      <p><strong>About these images.</strong> They are web-sized copies (about 2,400 pixels across for a spread) saved from the processed scan, with the black boxes burned in. The full-size masters and the unredacted versions are not hosted here.</p>
+    </div>
+
+    <div class="gallery">
+
+      <figure class="single">
+        <a class="zoom" href="img/01-front-cover.jpg"><img src="img/01-front-cover.jpg" width="1400" height="1959" loading="lazy" alt="Front cover of Cười Vui no. 20, 2014. A smiling cartoon teacher in a white áo dài stands beside three cartoon schoolboys gathered around a desk with a green school bag. Around the edge are five small teasers for stories inside. A name and class are written by hand in ink above the logo."></a>
+        <figcaption><strong>Front cover</strong>
+          <span class="vi" lang="vi">Gọi bằng… BỐN</span> (“Call it… four”). Cover art credited to Tạ Tùng. The handwriting above the logo is the owner's.
+        </figcaption>
+      </figure>
+
+      <figure>
+        <a class="zoom" href="img/02-spread-inside-cover-p3.jpg"><img src="img/02-spread-inside-cover-p3.jpg" width="2400" height="1703" loading="lazy" alt="Inside front cover and page 3. Left: a hand-lettered rhyme titled 'Lớp tôi' inside a blue speech-bubble frame, surrounded by cartoon schoolchildren with red scarves, with the publisher's masthead in a red panel along the bottom. Right: the 'Văn phòng Bố Đa' column, four readers' questions with joke answers in green and yellow panels, with a cartoon man in a suit and a boy on a pile of books. Black boxes cover the contributors' addresses."></a>
+        <figcaption><strong>Inside front cover and page 3</strong>
+          <span class="vi" lang="vi">Lớp tôi</span> (“My class”), a rhyme by a reader, and <span class="vi" lang="vi">Văn phòng Bố Đa</span>, readers' jokes. Masthead: <span lang="vi">Nhi Đồng Cười Vui</span> no. 20, 16-5-2014, price 4,000 đồng. <em>This is the main transcribed spread.</em>
+          <br><a class="open" href="img/02-spread-inside-cover-p3.jpg">Open full size</a>
+        </figcaption>
+      </figure>
+
+      <figure>
+        <a class="zoom" href="img/03-spread-p4-5.jpg"><img src="img/03-spread-p4-5.jpg" width="2400" height="1707" loading="lazy" alt="Pages 4 and 5. Left: the cover story 'Gọi bằng… BỐN', a short classroom joke about different words for 'father', in a pink card tilted on a yellow page, above a drawing of three schoolchildren. Right: 'Cảnh sát và những tình huống khó xử', two short jokes, one about a police officer stopping a driver and one about a shopkeeper reporting a robbery, with cartoons of a policeman, a driver and a masked thief. One school name is covered by a black box."></a>
+        <figcaption><strong>Pages 4–5</strong>
+          <span class="vi" lang="vi">Gọi bằng… BỐN</span> and <span class="vi" lang="vi">Cảnh sát và những tình huống khó xử</span> (“Police and awkward situations”).
+          <br><a class="open" href="img/03-spread-p4-5.jpg">Open full size</a>
+        </figcaption>
+      </figure>
+
+      <figure>
+        <a class="zoom" href="img/04-spread-p6-7.jpg"><img src="img/04-spread-p6-7.jpg" width="2400" height="1708" loading="lazy" alt="Pages 6 and 7. Left: a news item about a TV comedy show with two photos of performers on a stage, then a short question-and-answer piece with a comedian, shown in a green military-style uniform with arms folded. Right: a feature headed 'Chuyện của sao Hề Xuân Hinh' with photos of a performer in a red costume and green headscarf, and further photos of two men."></a>
+        <figcaption><strong>Pages 6–7</strong>
+          <span class="vi" lang="vi">Trong nhà ngoài phố</span> (a TV comedy show), <span class="vi" lang="vi">Chát ngắn</span> (“quick chat”) with a comedian, and <span class="vi" lang="vi">Chuyện của sao “Hề” Xuân Hinh</span> (“The story of the ‘clown’ star Xuân Hinh”).
+          <br><a class="open" href="img/04-spread-p6-7.jpg">Open full size</a>
+        </figcaption>
+      </figure>
+
+      <figure>
+        <a class="zoom" href="img/05-spread-p8-9.jpg"><img src="img/05-spread-p8-9.jpg" width="2400" height="1711" loading="lazy" alt="Pages 8 and 9: the first two pages of a comic strip titled 'Sói Vin và Bíp Bíp'. A cartoon coyote fishes in the Antarctic for a penguin in a top hat, is flung through the air, and meets a walrus; on the right page he tries a magnet, and an ocean liner sits on the ice."></a>
+        <figcaption><strong>Pages 8–9</strong>
+          <span class="vi" lang="vi">Sói Vin và Bíp Bíp</span>, a comic strip about a coyote and a fast-running bird. Translator credit printed at the edge: Lan Khanh.
+          <br><a class="open" href="img/05-spread-p8-9.jpg">Open full size</a>
+        </figcaption>
+      </figure>
+
+      <figure>
+        <a class="zoom" href="img/06-spread-p10-11.jpg"><img src="img/06-spread-p10-11.jpg" width="2400" height="1710" loading="lazy" alt="Pages 10 and 11: the end of the coyote comic. On the left he rides ice skates and a jet-powered sled across the ice and an iceberg falls; on the right he ends up in a desert among cacti, and a road-runner bird pours soap powder over him as a sign reads 'HẾT' (the end)."></a>
+        <figcaption><strong>Pages 10–11</strong>
+          The comic continues and ends (<span class="vi" lang="vi">HẾT</span> means “the end”).
+          <br><a class="open" href="img/06-spread-p10-11.jpg">Open full size</a>
+        </figcaption>
+      </figure>
+
+      <figure>
+        <a class="zoom" href="img/07-spread-p12-13.jpg"><img src="img/07-spread-p12-13.jpg" width="2400" height="1703" loading="lazy" alt="Pages 12 and 13. Left: a poem in a yellow panel about a father and child going fishing, beside a cartoon of a man in a hat and a boy with fishing rods and a cat at the bottom; a school name is covered by a black box. Right: a full-page advertisement for a milk brand's comic series with manga-style characters on a blue sky background."></a>
+        <figcaption><strong>Pages 12–13</strong>
+          <span class="vi" lang="vi">Mua “quà” để tặng cá</span> (“Buying ‘presents’ to give the fish”), a reader's poem, and an advertisement for the comic series <span class="vi" lang="vi">Chinh phục vũ trụ</span> (“Conquering the universe”).
+          <br><a class="open" href="img/07-spread-p12-13.jpg">Open full size</a>
+        </figcaption>
+      </figure>
+
+      <figure>
+        <a class="zoom" href="img/08-spread-p14-15.jpg"><img src="img/08-spread-p14-15.jpg" width="2400" height="1703" loading="lazy" alt="Pages 14 and 15. Left: a page of short dialogue jokes headed 'Cười xả láng', with cartoon schoolchildren, including 'Không sợ', 'Lý do', 'Thắc mắc' and 'Héo', and a three-panel meme-style strip at the bottom; addresses under three credits are covered by black boxes. Right: a quiz-style advertisement for the milk brand's comic series, six numbered questions with tick boxes and manga illustrations."></a>
+        <figcaption><strong>Pages 14–15</strong>
+          <span class="vi" lang="vi">Cười xả láng</span> (“laugh out loud”): short jokes including <span class="vi" lang="vi">Thắc mắc</span> (“A question”), which is in the transcribed sample, and a quiz advertisement.
+          <br><a class="open" href="img/08-spread-p14-15.jpg">Open full size</a>
+        </figcaption>
+      </figure>
+
+      <figure>
+        <a class="zoom" href="img/09-spread-p16-17.jpg"><img src="img/09-spread-p16-17.jpg" width="2400" height="1709" loading="lazy" alt="Pages 16 and 17. Left: a news item about a man who was too large for prison clothes and beds, with a photo of a large man in a black jacket, above a section of funny animal photos: birds on a branch, a squirrel taking a peanut from a hand, and a cat beside a calculator. Right: two readers' photos, one of a potted plant with a sign and one of a man with a rainbow umbrella in a flooded street; a one-panel cartoon; and a song parody titled 'Cùng vui đến trường' with a cartoon of two children. One address is covered by a black box."></a>
+        <figcaption><strong>Pages 16–17</strong>
+          <span class="vi" lang="vi">Không phải ngồi tù vì… quá bự</span> (“Not going to jail because… too big”), <span class="vi" lang="vi">Ngộ nghĩnh động vật</span> (“Funny animals”), <span class="vi" lang="vi">Trên từng cây số</span> and a reader's song parody, <span class="vi" lang="vi">Cùng vui đến trường</span> (“Happy together on the way to school”).
+          <br><a class="open" href="img/09-spread-p16-17.jpg">Open full size</a>
+        </figcaption>
+      </figure>
+
+      <figure>
+        <a class="zoom" href="img/10-spread-p18-19.jpg"><img src="img/10-spread-p18-19.jpg" width="2400" height="1688" loading="lazy" alt="Pages 18 and 19. Left: 'Đam mê mùa hè', an article announcing five prize winners, with photos of the prizes down the right edge (a Minion stamp set, a watercolour set, a Rubik's cube, a doll and a chess set) and a blank entry form at the bottom. All the winners' address lines are covered by black boxes. Right: 'Dung nhan mỹ nhân', a contest page with photos of a performer in elaborate costumes and instructions for sending entries."></a>
+        <figcaption><strong>Pages 18–19</strong>
+          <span class="vi" lang="vi">Đam mê mùa hè</span> (“Summer passions”), a contest with a prize-winners list, and <span class="vi" lang="vi">Dung nhan mỹ nhân</span> (“The faces of beauties”), a humour contest.
+          <br><a class="open" href="img/10-spread-p18-19.jpg">Open full size</a>
+        </figcaption>
+      </figure>
+
+      <figure class="single">
+        <a class="zoom" href="img/11-back-cover.jpg"><img src="img/11-back-cover.jpg" width="1400" height="1969" loading="lazy" alt="Back cover. An eight-panel colour comic on a green background titled 'Nhất quỷ nhì ma'. A girl with red plaits in a polka-dot dress sits at a school desk while a blond boy in a striped jumper reads a comic book; in the last panels she hurries out of the classroom and he writes on a slip of paper, with the word 'HẾT' (the end) in the corner."></a>
+        <figcaption><strong>Back cover</strong>
+          <span class="vi" lang="vi">Nhất quỷ nhì ma</span>, a comic. This page comes from a different photograph than the other ten (see <a href="#process">How it was made</a>).
+          <br><a class="open" href="img/11-back-cover.jpg">Open full size</a>
+        </figcaption>
+      </figure>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= 5. TRANSCRIPTION ================= -->
+<section id="transcription" aria-labelledby="trans-h">
+  <div class="wrap">
+    <h2 id="trans-h"><span class="section-num">5</span>Sample transcription and the AI check</h2>
+    <div class="read">
+      <p>We transcribed a sample so that it could be read, searched and copied, and so that we could test an AI against it. <strong>Đinh Ngọc Đại</strong> typed a human “ground truth” from the page. He then had Claude (an AI) transcribe the same images and compared the two. The sample covers the <span lang="vi">Lớp tôi</span> spread and the <span lang="vi">Thắc mắc</span> joke.</p>
+      <p>The text below is the human transcription after it was checked line by line against the page. Where the checking changed it, the change is listed in the table underneath. The contributors' addresses are withheld here too.</p>
+    </div>
+
+    <div class="todo">
+      <span class="todo-badge">✎ DRAFT: corrections below are Claude's readings of close-ups; the three of you must re-confirm each one against the paper</span>
+    </div>
+
+    <h3>The page and its text, side by side</h3>
+    <div class="diff-toggle" hidden><button type="button" aria-pressed="false">Highlight the differences</button><span class="legend"><mark class="d d-ai">AI got it wrong</mark> <mark class="d d-human">human got it wrong</mark> · hover or tap a word for the detail</span></div>
+
+    <div class="pair">
+      <figure>
+        <a href="img/02-spread-inside-cover-p3.jpg"><img src="img/crop-poem-lop-toi.jpg" width="1100" height="813" loading="lazy" alt="Close-up of the left page: the rhyme 'Lớp tôi' in hand-lettered script inside a blue frame, with the contributor's address covered by a black box."></a>
+        <figcaption>Inside front cover: the rhyme, as scanned.</figcaption>
+      </figure>
+      <div class="transcript" lang="vi">
+        <h4 lang="en">Transcription (Vietnamese; the printed layout is read as one continuous poem)</h4>
+        <p><strong>Lớp tôi</strong></p>
+        <p class="poem">Ve <mark class="d d-ai" title="Claude read: vè">vẻ</mark> vè ve
+Vè lớp tôi đó
+Ăn không nói có
+Đạt ta xấu ghê
+<mark class="d d-ai" title="Claude read: Diện">Điện</mark> <mark class="d d-ai" title="Claude read: từ">tử</mark> rất mê
+Đích thị là Ngọc
+Chao ôi, mái tóc
+Đẹp quá của Linh
+Học hành rất kinh
+Ly toàn điểm mười
+Tính rất hay cười
+Bạn Thúy vô tư
+Được học gia <mark class="d d-ai" title="Claude read: su">sư</mark>
+Là bạn “su” Hào
+Gặp thầy cô chào
+Ngoan ngoãn Minh Phương
+Rất thích ăn tương,
+Chính là Trang đó
+Mặt mày nhăn nhó
+Vè tiếp chẳng ra
+Mời bạn lớp ta
+Cùng vào giúp nhé!
+<mark class="d d-human" title="Human typed: NGUYỂN">NGUYỄN</mark> THU BA</p>
+        <p><span class="withheld" lang="en">address withheld</span></p>
+      </div>
+    </div>
+
+    <div class="pair">
+      <figure>
+        <a href="img/02-spread-inside-cover-p3.jpg"><img src="img/crop-van-phong-bo-da.jpg" width="900" height="1251" loading="lazy" alt="Close-up of page 3: the 'Văn phòng Bố Đa' column, four readers' questions with joke answers on green, yellow and pink panels, with cartoon figures. Contributors' addresses are covered by black boxes."></a>
+        <figcaption>Page 3: the <span lang="vi">Văn phòng Bố Đa</span> column, as scanned.</figcaption>
+      </figure>
+      <div class="transcript" lang="vi">
+        <h4 lang="en">Transcription (Vietnamese; prose is joined into paragraphs, not kept at the printed line breaks)</h4>
+        <p>Chào anh Bo Đa yêu quý! Anh rất có kinh nghiệm về ăn uống. Đố anh loại mơ nào mà dù non, xanh, chín đều không thể ăn được hả anh Bo?<br>TRƯƠNG QUỲNH ANH <span class="withheld" lang="en">address withheld</span></p>
+        <p>- Mơ màng, mơ mộng, mơ ngủ, lơ mơ, … đều không ăn được kể cả … nấu chín hay … ninh nhừ đấy Quỳnh Anh yêu quý ạ!</p>
+        <p>Tại sao người ta lại hay nói rằng “mẹ hát con khen hay” nhỉ?<br>NGUYỄN ANH TÚ <span class="withheld" lang="en">address withheld</span></p>
+        <p>- Đó là câu nói chỉ những đứa con khéo léo, biết… <mark class="d d-ai" title="Claude read: ninh (stew), and called it “as printed”">nịnh</mark> mẹ mọi nơi, mọi lúc đấy Tú ơi!</p>
+        <p>Ba chàng trai và ba cô gái đi chơi. Họ đều rất thích uống cà phê nên việc đầu tiên họ làm là rẽ ngay vào một tiệm cà phê để thưởng thức. Chủ quán chỉ bưng ra… 2 ly cà phê nóng hổi. Thế thì ai uống, ai không <mark class="d d-ai" title="Claude read: a (no dot below)">ạ</mark>?<br>NHÓM TAM QUÁI <span class="withheld" lang="en">address withheld</span></p>
+        <p>- Ngốc ạ! Mỗi người đều được uống đủ một ly cà phê không thiếu… một giọt. Vì ba chính là… bố. Bố chàng trai cộng bố cô gái chả là hai người còn gì.</p>
+        <p><mark class="d d-human" title="Human left out the speech bubble">[speech bubble] Vì ba chính là.. bố.</mark></p>
+        <p>Mỗi khi em đi học về, bố em lại nghiêm giọng: “Cặp sách đâu? Mang tất ra đây để bố kiểm tra!” khiến em run <mark class="d d-ai" title="Claude read: bần, and suggested “run bần bật”">bắn</mark>. Nói nhỏ với anh, trong vở em nhiều bí mật <mark class="d d-human" title="Human put the ellipsis one word early">dễ...</mark> ăn roi lắm ạ!<br>TRẦN THỊ TUYẾT LAN <span class="withheld" lang="en">address withheld</span></p>
+        <p>- Ô hay, sao phải sợ nhỉ? Cứ làm theo lời bố em bảo, luôn để sẵn một đôi… tất thật sạch sẽ, thơm tho, nhận lệnh là đưa bố <mark class="d d-human" title="Human left this word out">em</mark> kiểm tra thôi!</p>
+      </div>
+    </div>
+
+    <div class="pair">
+      <figure>
+        <a href="img/08-spread-p14-15.jpg"><img src="img/crop-thac-mac.jpg" width="550" height="790" loading="lazy" alt="Close-up of the 'Thắc mắc' joke on page 14: a short two-person dialogue in black italics beside a cartoon boy; the contributor's address is covered by a black box."></a>
+        <figcaption>Page 14: <span lang="vi">Thắc mắc</span>, as scanned.</figcaption>
+      </figure>
+      <div class="transcript" lang="vi">
+        <h4 lang="en">Transcription (Vietnamese)</h4>
+        <p><strong><mark class="d d-ai" title="Claude left out this heading">Thắc mắc</mark></strong></p>
+        <p>An: - Về cái việc ăn ngủ của tớ, bố mẹ tớ kì ghê, cậu ạ!<br>Trang: - Cậu nói vậy nghĩa là sao?<br>An: - Thì đêm trước, lúc tớ muốn thức tiếp, bố mẹ cứ giục tớ đi ngủ. Còn sáng hôm sau, lúc tớ vẫn muốn ngủ, bố mẹ lại bắt tớ phải thức dậy!<br>Trang: - Trời!!!<br>NGUYỄN PHƯƠNG LONG <span class="withheld" lang="en">address withheld</span></p>
+      </div>
+    </div>
+    
+
+    <h3>What the human transcription, the AI and the page each said</h3>
+    <div class="table-wrap">
+      <table>
+        <caption>Differences between Đại's typed ground truth, Claude's transcription and the page. “Page” is the reading from a close-up of the scan.</caption>
+        <thead>
+          <tr><th scope="col">Where</th><th scope="col">The page shows</th><th scope="col">Human ground truth</th><th scope="col">Claude (AI)</th><th scope="col">Who differed</th></tr>
+        </thead>
+        <tbody>
+          <tr><td><span lang="vi">Lớp tôi</span>, line 13</td><td class="vi" lang="vi">gia sư</td><td class="vi" lang="vi">gia sư</td><td class="vi" lang="vi">gia su</td><td><span class="tag ai">AI</span> dropped the horn on <span lang="vi">ư</span></td></tr>
+          <tr><td><span lang="vi">Lớp tôi</span>, line 5</td><td class="vi" lang="vi">Điện</td><td class="vi" lang="vi">Điện</td><td class="vi" lang="vi">Diện</td><td><span class="tag ai">AI</span> dropped the bar on <span lang="vi">Đ</span></td></tr>
+          <tr><td>Bố Đa, Anh Tú's answer</td><td class="vi" lang="vi">nịnh mẹ</td><td class="vi" lang="vi">nịnh mẹ</td><td class="vi" lang="vi">ninh mẹ</td><td><span class="tag ai">AI</span> “Flatter mum” became “stew mum”. The AI then added a note saying <em>ninh mẹ</em> was “as printed… a pun”.</td></tr>
+          <tr><td>Bố Đa, Tuyết Lan's question</td><td class="vi" lang="vi">run bắn</td><td class="vi" lang="vi">run bắn</td><td class="vi" lang="vi">run bần</td><td><span class="tag ai">AI</span> The note suggested <em>run bần bật</em> as “the usual phrase”, a guess at a “fix”.</td></tr>
+          <tr><td>Bố Đa, Nhóm Tam Quái's question</td><td class="vi" lang="vi">ai không ạ?</td><td class="vi" lang="vi">ai không ạ?</td><td class="vi" lang="vi">ai không a?</td><td><span class="tag ai">AI</span> dropped the dot below <span lang="vi">ạ</span> (checked against the paper copy)</td></tr>
+          <tr><td>Bố Đa, Tuyết Lan's answer</td><td class="vi" lang="vi">đưa bố em kiểm tra</td><td class="vi" lang="vi">đưa bố kiểm tra</td><td class="vi" lang="vi">đưa bố em kiểm tra</td><td><span class="tag human">Human</span> left out “em”</td></tr>
+          <tr><td>Bố Đa, Tuyết Lan's question</td><td class="vi" lang="vi">bí mật dễ... ăn roi</td><td class="vi" lang="vi">bí mật… dễ ăn roi</td><td class="vi" lang="vi">bí mật dễ... ăn roi</td><td><span class="tag human">Human</span> put the ellipsis one word early</td></tr>
+          <tr><td>Contributor name, <span lang="vi">Lớp tôi</span></td><td class="vi" lang="vi">NGUYỄN</td><td class="vi" lang="vi">NGUYỂN</td><td class="vi" lang="vi">NGUYỄN</td><td><span class="tag human">Human</span> typed the wrong tone mark</td></tr>
+          <tr><td>Speech bubble, bottom right of page 3</td><td class="vi" lang="vi">Vì ba chính là.. bố.</td><td>left out</td><td class="vi" lang="vi">included</td><td><span class="tag human">Human</span> omitted the bubble</td></tr>
+          <tr><td>Smiley before contributor names</td><td>a smiley-face symbol</td><td>left out</td><td>copied as “☺” once and as “©” once</td><td><span class="tag ai">AI</span> inconsistent; read a smiley as a copyright sign</td></tr>
+          <tr><td>Title of the joke on page 14</td><td class="vi" lang="vi">Thắc mắc</td><td class="vi" lang="vi">Thắc mắc</td><td>left out</td><td><span class="tag ai">AI</span> omitted the heading</td></tr>
+          <tr><td>Extra labels</td><td>nothing of the kind</td><td>none</td><td>“LEFT PAGE”, “Poem (left column)”, “Logo: … [stylized, best reading]”, …</td><td><span class="tag ai">AI</span> added its own commentary to the text</td></tr>
+          <tr><td><span lang="vi">Lớp tôi</span>, line 1</td><td>second word: hand-drawn mark; the page's own logo spells it <span lang="vi">VE VẺ VÈ VE</span></td><td class="vi" lang="vi">Ve vẻ vè ve</td><td class="vi" lang="vi">Ve vè vè ve</td><td><span class="tag ai">AI</span> read a falling mark (<em>vè</em>) where the logo and the human text have a hook (<em>vẻ</em>)</td></tr>
+          <tr><td><span lang="vi">Lớp tôi</span>, line 5</td><td>second word: hand-drawn mark, read as a hook; it fits the sense (<em>điện tử</em>, “electronics”)</td><td class="vi" lang="vi">Điện tử rất mê</td><td class="vi" lang="vi">Diện từ rất mê</td><td><span class="tag ai">AI</span> read a falling mark (<em>từ</em>), which would turn “electronics” into “electromagnetic”</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="read">Two further small slips in the human transcription are in contributor lines that are withheld on this site.</p>
+
+    <h3>What we did with the AI's output</h3>
+    <div class="read">
+      <p><strong>Rejected</strong>, because the page shows something different: <span lang="vi">ninh mẹ</span> (the page has <span lang="vi">nịnh mẹ</span>), <span lang="vi">gia su</span>, <span lang="vi">Diện</span>, <span lang="vi">run bần</span> and the AI's suggested “fix” <span lang="vi">run bần bật</span>, <span lang="vi">a</span> for <span lang="vi">ạ</span>, the “©” sign, and the AI's own labels such as “LEFT PAGE”.</p>
+      <p><strong>Accepted</strong>, because the page confirms it and the human version missed it: the speech bubble, the word <span lang="vi">em</span> in Tuyết Lan's answer, the tone mark on <span lang="vi">NGUYỄN</span> and the position of the ellipsis.</p>
+      <p><strong>Changed</strong>: the text on this site is the human version corrected against the page, not either version as it came. Every call was made by looking at the scan. Where the lettering was unclear (<span lang="vi">vẻ</span>, <span lang="vi">tử</span>), we used the page's own logo and the sense of the line.</p>
+    </div>
+
+    <div class="prompt">
+      <strong>For the team (hidden when drafts are off).</strong> Please check this table yourselves. The last two rows are genuinely unclear in the lettering: decide, or keep them as “open”. Row 3 (<em>nịnh / ninh</em>) is your strongest example for the AI check: it changes the meaning of the joke.
+    </div>
+  </div>
+</section>
+
+<!-- ================= 6. DECISIONS ================= -->
+<section id="decisions" aria-labelledby="dec-h">
+  <div class="wrap">
+    <h2 id="dec-h"><span class="section-num">6</span>Three decisions that shaped this digital version</h2>
+    <div class="read">
+      <p>The full decision log is in our workbook. These three mattered most for what the digital version can and cannot tell you.</p>
+    </div>
+
+    <article class="decision todo">
+      <span class="todo-badge">✎ DRAFT: built from your decision-log sheet; check every line is how you'd say it</span>
+      <h3>1. Which scan became the master, and not pressing pages flat</h3>
+      <dl>
+        <dt>What we decided</dt>
+        <dd>We used V3, the Apple Notes scan, as our master. We did not press pages flat to force them straight, and when cropping we cut along straight lines, even where that cropped away some of the page edge (mostly plain colour). The back cover is the exception: V3's had glare, so we replaced it with a cleaner photograph from our second set (V2), which is that page's master.</dd>
+        <dt>What we tried first</dt>
+        <dd>We began by testing the softbox setup that Professor Dan kindly set up for us. With it, the lighting was not consistent (it got dimmer towards the top and bottom of the page) and, most importantly, the cover pages had too much glare, which could not be fixed afterwards.</dd>
+        <dt>Why Notes</dt>
+        <dd>Notes has a convenient autoscan feature, which we wanted to test.</dd>
+        <dt>Why we did not press the pages flat</dt>
+        <dd>We wanted to limit any further damage to the copy, as it was old and quite thin.</dd>
+        <dt>What it changed or lost</dt>
+        <dd>The app cropped the pages and balanced the brightness automatically. We found this did not affect the clarity of the image, and we chose this scanning method for our master.</dd>
+        <dt>What we would do with more time</dt>
+        <dd>We would scan the pages much more carefully. Perhaps we would adjust the lighting until it was ideal for each page, instead of relying on the Notes correction.</dd>
+        <dt>Example</dt>
+        <dd>Our Notes scan had glare in the right corner of the back cover, which could not be edited out afterwards. Our V2 photograph, taken under the same lighting but without the Notes app's automatic brightness balancing, did not have it. We straightened that photograph with a four-cornered, straight-edged outline cut just inside the page edge, giving V5 (right). In V4 (centre) the same cover had come out stretched and with a patch of glare.</dd>
+        <dd>The trade-off: one could say the glary version was more true to life, as in bright lighting that could be how it looks.</dd>
+      </dl>
+      <div class="trio">
+        <figure><img src="img/compare-backcover-v2.jpg" width="760" height="1037" loading="lazy" alt="The back cover as originally photographed in the second set, on a cutting mat, slightly tilted."><figcaption><strong>V2:</strong> the raw photograph, cropped for display.</figcaption></figure>
+        <figure><img src="img/compare-backcover-v4.jpg" width="703" height="1100" loading="lazy" alt="The back cover as it appeared in V4: taller and narrower than the real page, with washed-out patches from glare."><figcaption><strong>V4:</strong> stretched, with glare.</figcaption></figure>
+        <figure><img src="img/compare-backcover-v5.jpg" width="760" height="1069" loading="lazy" alt="The back cover in V5: correct proportions, even lighting, straight edges."><figcaption><strong>V5:</strong> straight-edge crop, perspective corrected.</figcaption></figure>
+      </div>
+    </article>
+
+    <article class="decision todo">
+      <span class="todo-badge">✎ DRAFT: from your sheet and your answers; check it is how you'd say it</span>
+      <h3>2. Cover every contributor's address with a plain black box</h3>
+      <dl>
+        <dt>What we decided</dt>
+        <dd>On the public copies, the address, village, school and district lines of 16 named people are covered with solid black boxes. Names stay. We did not use AI to fill, blur or repaint anything.</dd>
+        <dt>Why</dt>
+        <dd>To protect the privacy of the people involved. The magazine is old and they may have moved, but we did not find it suitable to publish their addresses online.</dd>
+        <dt>What else we could have done</dt>
+        <dd>We could have left the addresses visible, which would have been the most accurate. We chose privacy instead. We could also have blurred them, but a blur might be reversible, so we covered them with solid black boxes.</dd>
+        <dt>What it changed or lost</dt>
+        <dd>A reader can no longer tell where these people were from, or possibly where they lived. What stays true is that these named people won these prizes.</dd>
+        <dt>Example</dt>
+        <dd>The prize-winners' list on page 18, shown in <a href="#collection">section 3</a>: names and prizes remain; 13 address lines are blacked out.</dd>
+      </dl>
+    </article>
+
+    <article class="decision todo">
+      <span class="todo-badge">✎ DRAFT: from your sheet and your answers; check it is how you'd say it</span>
+      <h3>3. Scan everything, transcribe only a sample, and check the AI against a human</h3>
+      <dl>
+        <dt>What we decided</dt>
+        <dd>We scanned the whole issue, but transcribed only the <span lang="vi">Lớp tôi</span> spread and one joke from page 14. One teammate typed a ground truth by hand; Claude transcribed the same pages; the two were then compared with each other and with the page.</dd>
+        <dt>Why</dt>
+        <dd>The 4–10 page size guide was behind the decision. We picked the <span lang="vi">Lớp tôi</span> spread and the <span lang="vi">Thắc mắc</span> joke because we wanted to examine the page formatting and the short, somewhat childish nature of these texts.</dd>
+        <dt>What it changed or lost</dt>
+        <dd>Only the sample can be searched, copied or read by a screen reader. Everything else is a picture with a short description.</dd>
+        <dt>Example</dt>
+        <dd>The table in <a href="#transcription">section 5</a>. The human version was not perfect either: it left out a word, a speech bubble, and mis-typed a tone mark. Without the check against the page, those errors would have counted as “truth”.</dd>
+      </dl>
+    </article>
+  </div>
+</section>
+
+<!-- ================= 7. FINDINGS ================= -->
+<section id="findings" aria-labelledby="find-h">
+  <div class="wrap">
+    <h2 id="find-h"><span class="section-num">7</span>What we found</h2>
+    <div class="read todo">
+      <span class="todo-badge">✎ DRAFT: arranged from your answers; change anything that isn't how you'd say it</span>
+      <h3>1. The AI's mistakes were mostly in the diacritics</h3>
+      <p>What bothered us most was the diacritics (the tone marks and other small marks on Vietnamese letters). Dust or a low-quality capture could affect them, but the AI got almost everything else right, so having it miss the diacritics was frustrating. The <a href="#transcription">table in section 5</a> lists each case.</p>
+      <p class="evidence"><strong>Evidence.</strong> In Anh Tú's answer the page has <span lang="vi">nịnh mẹ</span> (“flatter mum”). Claude wrote <span lang="vi">ninh mẹ</span> (“stew mum”), which changes the joke, and then added a note saying it was “as printed”. It also dropped the horn in <span lang="vi">gia sư</span> and the bar on <span lang="vi">Đ</span> in <span lang="vi">Điện</span>, and misread the marks on <span lang="vi">vẻ</span> and <span lang="vi">tử</span>.</p>
+      <h3>2. Don't blindly trust any single transcription, including the human one</h3>
+      <p>Making the human “ground truth” also involved interpretive choices, so it can't be treated as the final word either.</p>
+      <p class="evidence"><strong>Evidence.</strong> The human version left out the word <span lang="vi">em</span> and a speech bubble, put an ellipsis one word early, and typed the wrong tone mark on <span lang="vi">NGUYỄN</span>. Claude got all four right.</p>
+      <h3>3. What the digital copy gives us, and what it cost</h3>
+      <p>It is a copy that can be viewed anywhere, at any time, at no monetary cost. That came at the cost of the work behind it: scanning, processing, interpreting, programming, uploading and hosting.</p>
+    </div>
+    <div class="prompt">
+      <strong>Optional (hidden when drafts are off).</strong> If you want a concrete example in finding 1, <em>nịnh / ninh</em> is the one where the AI changed the joke's meaning. In finding 2, the table shows the human text also left out a word and a speech bubble.
+    </div>
+  </div>
+</section>
+
+<!-- ================= 8. LIMITATIONS ================= -->
+<section id="limits" aria-labelledby="lim-h">
+  <div class="wrap">
+    <h2 id="lim-h"><span class="section-num">8</span>Limitations</h2>
+    <div class="read todo">
+      <span class="todo-badge">✎ DRAFT: the two main limits are from your answers; check, and pick which of the other points to keep</span>
+      <h3>What the images can't tell you</h3>
+      <p>A reader might assume these images show the pages as they look under normal lighting, or under smooth, consistent lighting. They don't. The lighting was uneven, and the Notes app adjusted the brightness and crop for us, so colour and brightness here are only approximate.</p>
+      <h3>What we can and can't say about the AI</h3>
+      <p>From our sample we can say how well Claude could “see” diacritics and how well it knew how and where to space the text. We can't know how much it understood the jokes, or how it came to transcribe them the way it did.</p>
+      <h3>Other limits</h3>
+      <ul class="plain">
+        <li>Only a sample is transcribed. The rest of the issue is images with descriptions, so it cannot be searched or copied.</li>
+        <li>Addresses are covered, so this site cannot show where contributors lived or studied.</li>
+        <li>The AI was tested on one spread and one joke: a hand-lettered rhyme and some printed jokes. We cannot say how it would do on the rest of the issue.</li>
+        <li>Two readings in the sample (<span lang="vi">vẻ</span> in line 1 and <span lang="vi">tử</span> in line 5 of the rhyme) rest on a hand-drawn tone mark, so we settled them by the page's own logo and the sense of the line, not by the mark alone.</li>
+        <li>The English descriptions are short guides, not translations of the magazine.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 9. PROCESS ================= -->
+<section id="process" aria-labelledby="proc-h">
+  <div class="wrap">
+    <h2 id="proc-h"><span class="section-num">9</span>How it was made</h2>
+    <div class="read">
+      <p>Five versions of the scan were kept and never overwritten. The dates match our decision log; the times for the two photo sets come from the photographs themselves.</p>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <caption>The version set. All times are Vietnam time (UTC+7).</caption>
+        <thead><tr><th scope="col">Version</th><th scope="col">What it is</th><th scope="col">When</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">V1</th><td>Ten phone photographs under a softbox light. Unsorted; some pictures in the wrong orientation.</td><td>21 Oct 2026, 17:49–17:52</td></tr>
+          <tr><th scope="row">V2</th><td>Ten phone photographs in dimmed room lighting with the Camera app (the same lighting as V3). Unsorted.</td><td>21 Oct 2026, 17:53–17:55</td></tr>
+          <tr><th scope="row">V3</th><td>The scan as saved by the Apple Notes app, which cropped it and balanced the brightness automatically: 22 pages including duplicates. <strong>This is the master</strong>, except for the back cover, whose master is V2.</td><td>21 Oct 2026</td></tr>
+          <tr><th scope="row">V4</th><td>V3 with duplicates removed, cropped and perspective-corrected: 11 pages. The back cover had glare and was stretched.</td><td>23 Oct 2026</td></tr>
+          <tr><th scope="row">V5</th><td>V4 with the back cover replaced by the V2 photograph, cropped with straight lines and perspective-corrected.</td><td>25 Oct 2026</td></tr>
+          <tr><th scope="row">Web copies</th><td>V5 pages with the address boxes burned in, saved at about 2,400 px wide. <strong>These are the images on this site.</strong></td><td>25 Oct 2026</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 10. VIDEO ================= -->
+<section id="video" aria-labelledby="vid-h">
+  <div class="wrap">
+    <h2 id="vid-h"><span class="section-num">10</span>Explanation video</h2>
+    <div class="read"><p>A short recording in which the team talks through its decisions.</p></div>
+    <!-- When the video is ready, replace the box below with either:
+         <video controls preload="metadata" src="video/explanation.mp4"></video>
+         or  <iframe class="video" src="https://www.youtube.com/embed/VIDEO_ID" title="Explanation video" allowfullscreen></iframe>
+    -->
+    <iframe class="video" src="https://www.youtube-nocookie.com/embed/2JEWHqwpNhg" title="Explanation video: the team talks through its three key decisions" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <p class="video-link">Video not loading? <a href="https://youtu.be/2JEWHqwpNhg">Watch it on YouTube</a>.</p>
+  </div>
+</section>
+
+<!-- ================= TEAM ================= -->
+<section id="team" aria-labelledby="team-h">
+  <div class="wrap">
+    <h2 id="team-h">Who did what</h2>
+    <div class="team">
+      <article>
+        <h3>Phan Đức Anh <span class="share">32%</span></h3>
+        <p class="stages"><span>Capture</span><span>Process</span></p>
+        <p>Scanned the issue, processed the scans up to V4 (duplicates removed, cropped, perspective corrected), and decided to replace the back cover with the V2 photo (V5).</p>
+      </article>
+      <article>
+        <h3>Đinh Ngọc Đại <span class="share">32%</span></h3>
+        <p class="stages"><span>Recognize</span><span>Check &amp; correct</span></p>
+        <p>Typed the human ground truth, ran the OCR through Claude, and commented on the AI's output.</p>
+      </article>
+      <article>
+        <h3>Trần Khánh <span class="share">36%</span></h3>
+        <p class="stages"><span>Ethics</span><span>Capture</span><span>Present</span></p>
+        <p>Chose the issue, got it approved, and covered the addresses with black boxes. Set up the scanning with Đức Anh. Coded this website with AI help and films the explanation video for the team.</p>
+      </article>
+    </div>
+    <p class="team-note">Approximate shares of the work, as agreed by all three of us in our workbook's contribution table.</p>
+  </div>
+</section>
+
+</main>
+<a class="to-top" href="#main" aria-label="Back to top">↑</a>
+
+<footer>
+  <div class="wrap">
+    <p><strong>About this site.</strong> A student project for CAS3020 Digital Arts and Sciences (Mini Project 1: Text Digitization and Interpretation), Professor Daniel Ruelle, VinUniversity, Fall 2026. It is hosted on GitHub Pages. The images are web-sized copies of the processed scans; the full-size masters and the unredacted pages are not published.</p>
+    <p><strong>AI use.</strong> Claude (Anthropic) transcribed the sample pages for the AI check, helped with the image processing and the code for this page, and gave feedback on drafts. It also arranged our answers into this page and added the evidence notes from our comparison table. To find and cover the addresses, it was shown the unredacted pages. The decisions, findings and explanations are the team's own. All AI use is listed in the project workbook.</p>
+    <p><strong>Rights.</strong> The magazine is the work of its publisher, writers, artists and photographers. It is shown here only for study.</p>
+    <p>A Mini Project for CAS3020 - Digital Arts and Sciences (Fall 2026), College of Arts and Sciences - VinUniversity.</p>
+  </div>
+</footer>
+<dialog id="lightbox" aria-label="Enlarged page image"><button type="button" class="lb-close" aria-label="Close enlarged image">✕ Close</button><img alt=""><p class="lb-cap"></p></dialog>
+<script>
+(function(){
+  /* A. Reading progress and current section in the menu */
+  var bar=document.querySelector('.progress span');
+  var links={}; [].forEach.call(document.querySelectorAll('nav a[href^="#"]'),function(a){links[a.getAttribute('href').slice(1)]=a;});
+  function onScroll(){
+    var h=document.documentElement; var max=h.scrollHeight-h.clientHeight;
+    if(bar) bar.style.transform='scaleX('+(max>0?h.scrollTop/max:0)+')';
+    document.body.classList.toggle('scrolled',h.scrollTop>600);
+  }
+  window.addEventListener('scroll',onScroll,{passive:true}); onScroll();
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){
+      if(e.isIntersecting&&links[e.target.id]){Object.keys(links).forEach(function(k){links[k].removeAttribute('aria-current')}); links[e.target.id].setAttribute('aria-current','true');}
+    });},{rootMargin:'-45% 0px -50% 0px'});
+    Object.keys(links).forEach(function(id){var el=document.getElementById(id); if(el)io.observe(el);});
+  }
+  /* B. Highlight differences in the transcription */
+  var dt=document.querySelector('.diff-toggle');
+  if(dt){ dt.hidden=false; var btn=dt.querySelector('button'); var sec=document.getElementById('transcription');
+    btn.addEventListener('click',function(){var on=btn.getAttribute('aria-pressed')!=='true'; btn.setAttribute('aria-pressed',on?'true':'false'); sec.classList.toggle('show-diffs',on); btn.textContent=on?'Hide the differences':'Highlight the differences';});
+    [].forEach.call(sec.querySelectorAll('mark.d[title]'),function(m){m.tabIndex=0; m.setAttribute('aria-label',m.textContent+'. '+m.title);});
+  }
+  /* 0. Flip-through viewer built from the page gallery */
+  var gal=document.querySelector('#pages .gallery');
+  if(gal){
+    var figs=[].slice.call(gal.querySelectorAll('figure')), cur=0;
+    var viewer=document.createElement('div'); viewer.className='flip'; viewer.tabIndex=0;
+    viewer.setAttribute('role','region'); viewer.setAttribute('aria-roledescription','carousel'); viewer.setAttribute('aria-label','Flip through the issue, page by page');
+    viewer.innerHTML='<div class="flip-bar"><button type="button" class="prev" aria-label="Previous page">← Previous</button><p class="flip-count" aria-live="polite"></p><button type="button" class="next" aria-label="Next page">Next →</button></div>'+
+      '<div class="flip-stage"><a href="#"><img alt="" width="1400" height="1000"></a></div><div class="flip-cap"></div><div class="flip-thumbs" role="group" aria-label="Jump to a page"></div><p class="flip-hint">Use the buttons, the ← → keys, or swipe. Select the page to enlarge it.</p>';
+    var stageA=viewer.querySelector('.flip-stage a'), stageImg=stageA.querySelector('img'), capEl=viewer.querySelector('.flip-cap'), countEl=viewer.querySelector('.flip-count'), thumbs=viewer.querySelector('.flip-thumbs');
+    var labels=['Front cover','Inside cover + p. 3','Pp. 4–5','Pp. 6–7','Pp. 8–9','Pp. 10–11','Pp. 12–13','Pp. 14–15','Pp. 16–17','Pp. 18–19','Back cover'];
+    figs.forEach(function(f,i){
+      var b=document.createElement('button'); b.type='button'; b.textContent=labels[i]||('Page '+(i+1)); b.addEventListener('click',function(){show(i)}); thumbs.appendChild(b);
+    });
+    function show(i){
+      cur=(i+figs.length)%figs.length; var f=figs[cur], im=f.querySelector('img'), a=f.querySelector('a.zoom');
+      stageImg.classList.remove('in'); void stageImg.offsetWidth;
+      stageImg.src=im.getAttribute('src'); stageImg.alt=im.alt; stageImg.width=im.width||im.getAttribute('width'); stageImg.height=im.height||im.getAttribute('height');
+      stageImg.classList.add('in'); stageA.setAttribute('href',a.getAttribute('href'));
+      var c=f.querySelector('figcaption').cloneNode(true); var o=c.querySelector('a.open'); if(o){var prev=o.previousElementSibling; if(prev&&prev.tagName==='BR')prev.remove(); o.remove();}
+      capEl.innerHTML=''; capEl.appendChild(c);
+      countEl.textContent='Page view '+(cur+1)+' of '+figs.length;
+      [].forEach.call(thumbs.children,function(b,k){b.setAttribute('aria-current',k===cur?'true':'false')});
+      var n=figs[(cur+1)%figs.length].querySelector('img'); if(n){var pre=new Image(); pre.src=n.getAttribute('src');}
+    }
+    viewer.querySelector('.prev').addEventListener('click',function(){show(cur-1)});
+    viewer.querySelector('.next').addEventListener('click',function(){show(cur+1)});
+    viewer.addEventListener('keydown',function(e){ if(e.target.closest&&e.target.closest('button')&&false)return; if(e.key==='ArrowLeft'){show(cur-1);e.preventDefault();} else if(e.key==='ArrowRight'){show(cur+1);e.preventDefault();} });
+    var x0=null; viewer.addEventListener('touchstart',function(e){x0=e.touches[0].clientX},{passive:true});
+    viewer.addEventListener('touchend',function(e){ if(x0===null)return; var dx=e.changedTouches[0].clientX-x0; x0=null; if(Math.abs(dx)>50)show(cur+(dx<0?1:-1)); },{passive:true});
+    var det=document.createElement('details'); det.className='all-pages'; var sum=document.createElement('summary'); sum.textContent='Show all pages as a list'; det.appendChild(sum);
+    gal.parentNode.insertBefore(viewer,gal); gal.parentNode.insertBefore(det,gal); det.appendChild(gal);
+    show(0);
+  }
+  /* 1. Filter the AI-check table */
+  var table=document.querySelector('#transcription table');
+  if(table){
+    var rows=[].slice.call(table.querySelectorAll('tbody tr'));
+    rows.forEach(function(r){
+      var t=r.querySelector('.tag');
+      r.dataset.who=t?(t.classList.contains('ai')?'ai':t.classList.contains('human')?'human':'open'):'other';
+    });
+    var bar=document.createElement('div');
+    bar.className='filters'; bar.setAttribute('role','group'); bar.setAttribute('aria-label','Filter the table by who differed from the page');
+    var live=document.createElement('p'); live.className='filter-count'; live.setAttribute('aria-live','polite');
+    [['all','All rows'],['ai','AI differed'],['human','Human differed'],['open','Still open']].filter(function(f){return f[0]==='all'||rows.some(function(r){return r.dataset.who===f[0]});}).forEach(function(f,i){
+      var b=document.createElement('button'); b.type='button'; b.textContent=f[1]; b.setAttribute('aria-pressed',i===0?'true':'false');
+      b.addEventListener('click',function(){
+        [].forEach.call(bar.children,function(x){x.setAttribute('aria-pressed','false')});
+        b.setAttribute('aria-pressed','true'); var n=0;
+        rows.forEach(function(r){var show=f[0]==='all'||r.dataset.who===f[0]; r.hidden=!show; if(show)n++;});
+        live.textContent='Showing '+n+' of '+rows.length+' rows.';
+      });
+      bar.appendChild(b);
+    });
+    var wrap=table.closest('.table-wrap'); wrap.parentNode.insertBefore(bar,wrap); wrap.parentNode.insertBefore(live,wrap);
+  }
+  /* 2. Click a page image to enlarge it (links still work without JavaScript) */
+  var dlg=document.getElementById('lightbox');
+  if(dlg&&dlg.showModal){
+    var img=dlg.querySelector('img'), cap=dlg.querySelector('.lb-cap');
+    document.addEventListener('click',function(e){
+      var a=e.target.closest('a[href$=".jpg"]'); if(!a||!a.querySelector('img'))return;
+      if(a.classList.contains('open'))return;
+      e.preventDefault();
+      var t=a.querySelector('img'); img.src=a.getAttribute('href'); img.alt=t.alt;
+      var fig=a.closest('figure'); var fc=fig&&fig.querySelector('figcaption'); cap.textContent=fc?fc.textContent:'';
+      dlg.showModal();
+    });
+    dlg.addEventListener('click',function(e){ if(e.target===dlg||e.target.classList.contains('lb-close')) dlg.close(); });
+  }
+})();
+</script>
+</body>
+</html>
